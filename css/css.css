@@ -10,7 +10,7 @@
 
 :root {
 
-    --body_background: rgba(79, 118, 237, 0.563);
+    --body_background: rgb(255, 255, 255);
     --article_background-color: white;
 
 }
@@ -49,7 +49,7 @@ article .div-btn-logo {
 
 article .div-btn-logo .user-img-content {
 
-    display: flex;
+ 
 
 }
 
