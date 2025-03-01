@@ -37,7 +37,7 @@ article {
 
 
 article .article-capa-img {
-    background: linear-gradient();
+   
     border-radius: 25px 25px 0 0;
     width: 100%;
 
@@ -164,7 +164,7 @@ article a i{
     article {
         margin: unset;
         box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.083);
-        background-color: var(--article_background-color);
+       
         width: 100%;
         max-width: unset;
         bottom: 0;
