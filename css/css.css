@@ -147,7 +147,7 @@ article .div-rolo-1 p .span-c {
 article a{
     align-items: center;
 
-   display: flex;
+   display: inline-flex;
    text-decoration: none;
    color: rgb(135, 135, 255);
    margin-bottom: 20px;
@@ -167,7 +167,9 @@ article a i{
         bottom: 0;
         border-radius:  25px 25px  0 0;
         top: unset;
+        left: unset;
         position: absolute;
+        transform: unset;
 
 
 
