@@ -16,21 +16,31 @@
 }
 
 body {
+
   
-   background-size: cover;
-    
+
     background: var(--body_background);
 }
 
+main {
+    background-color: brown;
+   
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 article {
-    margin: 5% auto;
+
     box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.083);
     background-color: var(--article_background-color);
     width: 100%;
-    max-width: 400px;
+  
+  
 
-    border-radius: 25px;
-    
 
 }
 
@@ -144,41 +154,40 @@ article .div-rolo-1 p .span-c {
     height: 7px;
 }
 
-article a{
+article a {
     align-items: center;
 
-   display: inline-flex;
-   text-decoration: none;
-   color: rgb(135, 135, 255);
-   margin-bottom: 20px;
-   padding: 0 18px;
-   gap: 8px;
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(135, 135, 255);
+    margin-bottom: 20px;
+    padding: 0 18px;
+    gap: 8px;
 }
-article a i{
- font-size:22px;
+
+article a i {
+    font-size: 22px;
 }
 
 @media (max-width : 600px) {
 
-    article {
-        margin: unset;
+    main {
+     
         box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.083);
         background-color: var(--article_background-color);
-        width: 100%;
-        max-width: unset;
+       
         bottom: 0;
-        border-radius:  25px 25px  0 0;
-        top: unset;
-        left: unset;
-        position: absolute;
-        transform: unset;
+
+
+       
+
 
 
 
     }
 
     article .div-btn-logo {
-        
+
         display: flex;
         flex-direction: column;
 
