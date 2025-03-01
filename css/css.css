@@ -174,7 +174,7 @@ article a i{
     }
 
     article .div-btn-logo {
-        cursor: pointer;
+        
         display: flex;
         flex-direction: column;
 
