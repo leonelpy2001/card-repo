@@ -165,6 +165,7 @@ article a i{
         width: 100%;
         max-width: unset;
         bottom: 0;
+        border-radius:  25px 25px  0 0;
         top: unset;
         position: absolute;
 
