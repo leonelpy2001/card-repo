@@ -12,4 +12,3 @@ span_seguindo.textContent= 12 + "M"
 
 })
 
-console.log(num)
