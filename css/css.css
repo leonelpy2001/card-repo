@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+
+    --body_background: linear-gradient(50deg, rgb(238, 238, 238), rgb(0, 76, 158));
+    --article_background-color: white;
+
+}
+
+body {
+    height: 100vh;
+    background: var(--body_background);
+}
+
+article {
+    box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.083);
+    background-color: var(--article_background-color);
+    width: 100%;
+    max-width: 400px;
+
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+
+}
+
+
+article .article-capa-img {
+    background: linear-gradient();
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+
+}
+
+article .div-btn-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15PX;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+
+}
+
+
+
+article .div-btn-logo .user-img-content {
+    background-color: transparent;
+    position: relative;
+    bottom: 60px;
+}
+
+article .div-btn-logo .user-img-content h2 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+article .div-btn-logo .user-img-content p {
+    opacity: 0.6;
+    font-size: small;
+}
+
+article .div-btn-logo .user-img-content img {
+    border-radius: 50%;
+    margin-bottom: 8px;
+    width: 95px;
+    border: 5px solid white;
+
+}
+
+article .div-btn-logo button {
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-weight: bold;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 45px;
+    font-size: medium;
+}
+
+
+
+article .p-descrisao {
+    padding: 0 15px;
+    position: relative;
+    bottom: 50px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+article .div-rolo {
+    position: relative;
+    bottom: 20px;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+article .div-rolo span {
+    display: flex;
+    justify-self: center;
+    font-weight: bolder;
+}
+
+article .div-rolo p {
+    opacity: 0.6;
+}
+
+article .div-rolo-1 {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+article .div-rolo-1 p {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .div-rolo-1 p .span-c {
+    background-color: green;
+    width: 7px;
+    border-radius: 50%;
+    height: 7px;
+}
+
+article a{
+    align-items: center;
+
+   display: flex;
+   text-decoration: none;
+   color: rgb(135, 135, 255);
+   margin-bottom: 20px;
+   padding: 0 18px;
+   gap: 8px;
+}
+article a i{
+ font-size:22px;
+}
+
+@media (max-width : 600px) {
+    article {
+        box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.083);
+        background-color: var(--article_background-color);
+        width: 100%;
+        max-width: unset;
+        bottom: 0;
+        top: unset;
+        position: absolute;
+
+
+
+    }
+
+    article .div-btn-logo {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    article .div-btn-logo button {
+        cursor: pointer;
+        display: unset;
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px 40px;
+    }
+
+}
